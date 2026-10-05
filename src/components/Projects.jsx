@@ -11,10 +11,10 @@ export default function Projects() {
       <div className="space-y-24 md:space-y-28">
         {projects.map((p, idx) => (
           <article key={p.title} className="grid items-center gap-10 lg:grid-cols-12 lg:gap-14">
-            <div className={`min-w-0 lg:col-span-7 ${idx % 2 ? 'lg:order-2' : ''}`}>
+            <div className={`min-w-0 lg:col-span-8 ${idx % 2 ? 'lg:order-2' : ''}`}>
               <Showcase project={p} />
             </div>
-            <div className="lg:col-span-5">
+            <div className="lg:col-span-4">
               <p className="flex items-center gap-3 text-sm font-semibold text-accent">
                 <span className="font-mono">{String(idx + 1).padStart(2, '0')}</span>
                 <span className="h-px w-8 bg-accent/50" />

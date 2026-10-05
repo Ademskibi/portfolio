@@ -77,11 +77,11 @@ export const projects = [
     demo: '',
     shots: [
       shot('etap', 'login', 'Sign in'),
-       shot('etap', 'admin-add-user', 'Admin: add user'),
-            shot('etap', 'users', 'Admin: user management'),
+      shot('etap', 'admin-add-user', 'Admin: add user'),
+      shot('etap', 'users', 'Admin: user management'),
 
-       shot('etap', 'admin-add-product', 'Admin: add product'),
-        shot('etap', 'admin-dashboard', 'Admin: dashboard'),
+      shot('etap', 'admin-add-product', 'Admin: add product'),
+      shot('etap', 'admin-dashboard', 'Admin: dashboard'),
       shot('etap', 'search', 'Search products by name'),
       shot('etap', 'categories', 'Filter by category'),
       shot('etap', 'orders', 'Manager: pending orders'),
@@ -108,7 +108,6 @@ export const experience = [
   { role: 'Developer', org: 'Techmind Solution', date: 'Nov 2025 – Present', points: ['Building responsive web and mobile apps with React, Flutter and Node.js.', 'Shipping features such as real-time notifications, e-commerce carts and location-aware services.', 'Working with cross-functional teams to deliver scalable solutions.'] },
   { role: 'Engineering Degree in Computer Science (Alternance)', org: 'ESPRIT', date: '2025 – Present', points: ['Work-study program combining engineering studies with professional practice.'] },
   { role: 'End-of-Studies Intern, MERN Stack', org: 'ETAP', date: 'Feb 4 – May 31, 2025', points: ['Built a full-stack inventory and workflow management app.', 'Integrated a real-time notification system.'] },
-  { role: 'Intern', org: 'CNTE', date: '2024', points: ['Built the An-Nour web app with React and Bootstrap, focusing on UI design.'] },
-  { role: 'Full-Stack Developer', org: 'BaliusCar', date: 'Jan 11 – Feb 4, 2024', points: ['Developed the Car History Manager desktop application for auto workshops.'] },
+  { role: 'Intern', org: 'CNTE', date: '8 jan 2024 , 2 fev 2024 / 9 jan 2023 , 6 fev 230', points: ['Rebuild a responsive backend web application using react and bootstrap.'] },
   { role: 'Bachelor’s Degree in Information Technology', org: 'ISET Zaghouan', date: '2022 – 2025', points: ['Member of the SecuriNets Club.'] },
 ]

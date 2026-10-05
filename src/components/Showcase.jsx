@@ -15,8 +15,8 @@ function BrowserFrame({ src, alt, label, onOpen }) {
         <span className="h-2.5 w-2.5 rounded-full bg-accent/70" />
         <span className="ml-3 truncate rounded-md bg-white/5 px-3 py-1 text-xs text-slate-500">{label}</span>
       </div>
-      <button type="button" onClick={onOpen} aria-label={`Enlarge: ${alt}`} className="block w-full cursor-zoom-in bg-white">
-        <img key={src} src={src} alt={alt} loading="lazy" className="aspect-[16/10] w-full animate-fade object-cover object-top" />
+      <button type="button" onClick={onOpen} aria-label={`Enlarge: ${alt}`} className="block w-full cursor-zoom-in bg-panel">
+        <img key={src} src={src} alt={alt} loading="lazy" className="aspect-[16/9] w-full animate-fade bg-panel object-contain" />
       </button>
     </div>
   )
@@ -118,7 +118,7 @@ export default function Showcase({ project }) {
             onClick={() => setI(k)}
             className={`shrink-0 overflow-hidden rounded-md border-2 transition ${k === i ? 'border-accent' : 'border-line opacity-60 hover:opacity-100'}`}
           >
-            <img src={s.src} alt="" loading="lazy" className={mobile ? 'aspect-[9/20] h-16 object-cover' : 'aspect-[16/10] h-12 object-cover object-top'} />
+            <img src={s.src} alt="" loading="lazy" className={mobile ? 'aspect-[9/20] h-16 object-cover' : 'aspect-[16/10] h-16 object-cover object-top'} />
           </button>
         ))}
       </div>
