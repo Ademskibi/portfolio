@@ -23,26 +23,31 @@ export const skills = {
 
 export const projects = [
   {
-    title: 'BaliusCar',
-    kind: 'web',
-    description:
-      'A full-stack platform for managing vehicle maintenance and service workflows: customer and vehicle records, appointments, repairs, parts, service history and invoice generation.',
-    features: [
-      'Customer and vehicle management',
-      'Appointment and service booking',
-      'Repair history and parts tracking',
-      'Invoice generation and admin dashboard',
-    ],
-    tech: ['React.js', 'PHP', 'Tailwind CSS', 'MySQL'],
-    github: 'https://github.com/Ademskibi',
-    demo: 'https://baliuscar.tn',
-    shots: [
-      shot('BaliusCar', 'services', 'Services overview'),
-      shot('BaliusCar', 'booking', 'Fast service booking'),
-      shot('BaliusCar', 'claims', 'Claims and warranty form'),
-      shot('BaliusCar', 'landing', 'Landing page'),
-    ],
-  },
+  title: 'Plateforme Infirmière',
+  kind: 'mobile',
+  description:
+    'A mobile app for nursing care management: nurses follow their assigned patients, record vital signs, medications and care notes, and track each patient with charts and history.',
+  features: [
+    'Secure login for nursing staff',
+    'Patient records with allergies and care team',
+    'Vital signs history with charts and alert levels',
+    'Medication and care notes tracking',
+  ],
+  tech: ['Flutter'], // <- put your real stack here
+  github: 'https://github.com/Ademskibi/YOUR-REPO', // <- real repo URL
+  demo: '',
+  shots: [
+     shot('nursing', 'login', 'Sign in'),
+
+    shot('nursing', 'home', 'Home dashboard'),
+        shot('nursing', 'new-patient', 'New patient form'),
+
+    shot('nursing', 'patients', 'Patient list'),
+    shot('nursing', 'vitals-history', 'Vital signs history'),
+    shot('nursing', 'vitals-chart', 'Temperature chart'),
+    shot('nursing', 'menu', 'Profile menu'),
+  ],
+},
   {
     title: 'An-Nour',
     kind: 'mobile',
@@ -93,6 +98,47 @@ export const projects = [
   shot('etap', 'storekeeper-products', 'Storekeeper: product management'),
 
 
+    ],
+  },
+    {
+    title: 'BaliusCar',
+    kind: 'web',
+    description:
+      'A full-stack platform for managing vehicle maintenance and service workflows: customer and vehicle records, appointments, repairs, parts, service history and invoice generation.',
+    features: [
+      'Customer and vehicle management',
+      'Appointment and service booking',
+      'Repair history and parts tracking',
+      'Invoice generation and admin dashboard',
+    ],
+    tech: ['React.js', 'PHP', 'Tailwind CSS', 'MySQL'],
+    github: 'https://github.com/Ademskibi',
+    demo: 'https://baliuscar.tn',
+    shots: [
+      shot('BaliusCar', 'services', 'Services overview'),
+      shot('BaliusCar', 'booking', 'Fast service booking'),
+      shot('BaliusCar', 'claims', 'Claims and warranty form'),
+      shot('BaliusCar', 'landing', 'Landing page'),
+    ],
+  },
+  {
+    title: 'BaliusCar - History Manager',
+    kind: 'desktop',
+    description:
+      'A desktop application for managing each vehicle’s complete service history, including arrival details, mileage, interventions performed, before-service videos, replaced parts and their suppliers and costs, labor costs, and the total cost charged to the client.',
+    features: [
+      'Customer and vehicle management',
+      'service history management',
+      'facture genration',
+      'take note of the replaced parts and their suppliers and costs, labor costs, and the total cost charged to the client.',
+    ],
+    tech: ['Flutter','SQLite '],
+    github: 'https://github.com/Ademskibi',
+    shots: [
+      shot('BaliusCar HistoryManager', 'addClient', 'add a new client'),
+      shot('BaliusCar HistoryManager', 'addVihicle', 'add a new vehicle'),
+      shot('BaliusCar HistoryManager', 'addVihicle2', 'add a new vehicle'),
+      shot('BaliusCar HistoryManager', 'intervention', 'intervention'),
     ],
   },
 ]

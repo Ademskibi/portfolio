@@ -34,6 +34,9 @@ export default function Hero() {
           <div className="absolute bottom-0 left-4 w-28 -rotate-6 overflow-hidden rounded-[1.5rem] border-[5px] border-neutral-800 bg-black shadow-2xl shadow-black/70">
             <img src={heroShots.phone.src} alt="" className="aspect-[9/20] w-full object-cover" />
           </div>
+          <div className="absolute bottom-0 left-4 w-28 -rotate-6 overflow-hidden rounded-[1.5rem] border-[5px] border-neutral-800 bg-black shadow-2xl shadow-black/70">
+            <img src={heroShots.phone.src} alt="" className="aspect-[9/20] w-full object-cover" />
+          </div>
         </div>
       </div>
     </section>
