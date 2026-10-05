@@ -76,22 +76,32 @@ export const projects = [
     github: 'https://github.com/Ademskibi/Project_PFE',
     demo: '',
     shots: [
-      shot('etap', 'cart', 'Shopping cart'),
+      shot('etap', 'login', 'Sign in'),
+       shot('etap', 'admin-add-user', 'Admin: add user'),
+            shot('etap', 'users', 'Admin: user management'),
+
+       shot('etap', 'admin-add-product', 'Admin: add product'),
+        shot('etap', 'admin-dashboard', 'Admin: dashboard'),
       shot('etap', 'search', 'Search products by name'),
       shot('etap', 'categories', 'Filter by category'),
       shot('etap', 'orders', 'Manager: pending orders'),
-      shot('etap', 'edit-product', 'Edit a product'),
-      shot('etap', 'users', 'Admin: user management'),
-      shot('etap', 'login', 'Sign in'),
+      shot('etap', 'cart', 'Shopping cart'),
+  
+      shot('etap', 'employee-order-history', 'Edit a product'),
+      shot('etap', 'manager-pending-orders', 'Admin: user management'),
+        shot('etap', 'storekeeper-order-details', 'Storekeeper: prepare an order'),
+  shot('etap', 'storekeeper-products', 'Storekeeper: product management'),
+
+
     ],
   },
 ]
 
 // Pictures used in the hero collage
 export const heroShots = {
-  web: shot('baliuscar', 'services', 'BaliusCar'),
-  webAlt: shot('etap', 'cart', 'ETAP Stock Management'),
-  phone: shot('an-nour', 'prayer-times', 'An-Nour'),
+  web: shot('BaliusCar', 'services', 'BaliusCar'),
+  webAlt: shot('etap', 'login', 'ETAP Stock Management'),
+  phone: shot('An-Nour', 'prayer-times', 'An-Nour'),
 }
 
 export const experience = [
