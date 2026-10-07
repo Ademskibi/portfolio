@@ -22,6 +22,27 @@ export const skills = {
 }
 
 export const projects = [
+      {
+    title: 'BaliusCar',
+    kind: 'web',
+    description:
+      'A full-stack platform for managing vehicle maintenance and service workflows: customer and vehicle records, appointments, repairs, parts, service history and invoice generation.',
+    features: [
+      'Customer and vehicle management',
+      'Appointment and service booking',
+      'Repair history and parts tracking',
+      'Invoice generation and admin dashboard',
+    ],
+    tech: ['React.js', 'PHP', 'Tailwind CSS', 'MySQL'],
+    github: 'https://github.com/Ademskibi',
+    demo: 'https://baliuscar.tn',
+    shots: [
+      shot('BaliusCar', 'services', 'Services overview'),
+      shot('BaliusCar', 'booking', 'Fast service booking'),
+      shot('BaliusCar', 'claims', 'Claims and warranty form'),
+      shot('BaliusCar', 'landing', 'Landing page'),
+    ],
+  },
   {
   title: 'Plateforme Infirmière',
   kind: 'mobile',
@@ -98,27 +119,6 @@ export const projects = [
   shot('etap', 'storekeeper-products', 'Storekeeper: product management'),
 
 
-    ],
-  },
-    {
-    title: 'BaliusCar',
-    kind: 'web',
-    description:
-      'A full-stack platform for managing vehicle maintenance and service workflows: customer and vehicle records, appointments, repairs, parts, service history and invoice generation.',
-    features: [
-      'Customer and vehicle management',
-      'Appointment and service booking',
-      'Repair history and parts tracking',
-      'Invoice generation and admin dashboard',
-    ],
-    tech: ['React.js', 'PHP', 'Tailwind CSS', 'MySQL'],
-    github: 'https://github.com/Ademskibi',
-    demo: 'https://baliuscar.tn',
-    shots: [
-      shot('BaliusCar', 'services', 'Services overview'),
-      shot('BaliusCar', 'booking', 'Fast service booking'),
-      shot('BaliusCar', 'claims', 'Claims and warranty form'),
-      shot('BaliusCar', 'landing', 'Landing page'),
     ],
   },
   {

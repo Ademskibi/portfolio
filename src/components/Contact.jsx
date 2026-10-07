@@ -30,13 +30,13 @@ export default function Contact() {
             <a href={profile.linkedin} target="_blank" rel="noreferrer" className="hover:text-accent">LinkedIn</a>
           </div>
         </div>
-        <form onSubmit={onSubmit} className="space-y-4">
+        {/* <form onSubmit={onSubmit} className="space-y-4">
           <input required name="name" placeholder="Your name" className={field} aria-label="Your name" />
           <input required type="email" name="email" placeholder="Your email" className={field} aria-label="Your email" />
           <textarea required name="message" rows="5" placeholder="Your message" className={field} aria-label="Your message" />
           <button className="rounded-lg bg-accent px-6 py-3 font-semibold text-ink transition hover:bg-emerald-300">Send message</button>
           {sent && <p role="status" className="text-sm text-accent">Your mail app should open with the message ready to send.</p>}
-        </form>
+        </form> */}
       </div>
     </Section>
   )
