@@ -14,11 +14,42 @@ export const profile = {
 export const nav = ['About', 'Skills', 'Projects', 'Experience', 'Contact']
 
 export const skills = {
-  Frontend: ['React', 'Tailwind CSS', 'JavaScript (ES6)', 'HTML / CSS', 'Bootstrap'],
-  Backend: ['Node.js', 'Express.js', 'PHP', 'RESTful APIs', 'Python', 'Java'],
-  Databases: ['MongoDB', 'PostgreSQL', 'MongoDB Compass'],
+  Frontend: [
+    'React',
+    'Redux',
+    'Tailwind CSS',
+    'JavaScript (ES6)',
+    'HTML / CSS',
+    'Bootstrap',
+  ],
+  Backend: [
+    'Node.js',
+    'Express.js',
+    'WebSockets',
+    'PHP',
+    'RESTful APIs',
+    'Python',
+    'Java',
+  ],
+  Databases: [
+    'MongoDB',
+    'PostgreSQL',
+    'MongoDB Compass',
+    'MySQL',
+    'SQLite',
+    'Firebase',
+  ],
   Mobile: ['Flutter', 'Dart'],
-  Tools: ['Git', 'GitHub', 'Docker', 'Postman', 'VS Code', 'UML', 'Scrum'],
+  Tools: [
+    'Git',
+    'GitHub',
+    'Docker',
+    'Postman',
+    'VS Code',
+    'UML',
+    'Scrum',
+    'Cloudinary',
+  ],
 }
 
 export const projects = [
